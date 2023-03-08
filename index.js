@@ -29,7 +29,7 @@ wss.on('connection', (socket) => {
     });
   });
 
-server.listen(8000, "0.0.0.0", () => {
+server.listen(3000, "0.0.0.0", () => {
     const address = server.address();
     console.log(`WebSocket server listening on ${address.address}:${address.port}`);
   });
